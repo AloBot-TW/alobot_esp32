@@ -10,5 +10,8 @@ Motor Control Byte(MCB):
 Command | Payload |
 --- | --- | 
 DD - Differential Drive  <br> -> control the motors |  B0: MCB of left motor  <br> B1: MCB of right motor <br> B2: Duration in ms| 
-BK - BraKe  <br> ->  brake the motors |  | 
-
+RO - ROtation <br> -> rotate the device |  B0: MCB of left motor  <br> B1: MCB of right motor <br> B2: Duration in ms <br> B3: Brake in ms| 
+BK - BraKe  <br> -> brake the motors |  | 
+OA - Obstacle Avoidance <br> -> turn it on or off | B0: 00 -> OFF ; 01 -> ON | 
+VS - VerSion  <br> -> get FW version |  | 
+ID - chip ID <br> -> get chip ID |  | 
