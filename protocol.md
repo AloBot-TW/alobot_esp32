@@ -1,7 +1,14 @@
 The BLE Write protocol is as follows:
-Starting with command of two characters.
-Following is payload with the size specific to the command.
+
+Starting with command of two characters. Following is payload with the size specific to the command.
+
+All values below are in hexadecimal.
+
+Motor Control Byte(MCB):
+00 (max backward) to 7f (stop) to ff (max forward)
 
 Command | Payload |
 --- | --- | 
-Seconds | 301 | 
+DD - Differential Drive  <br> -> control the motors |  B0: MCB of left motor  <br> B1: MCB of right motor <br> B2: Duration in ms| 
+BK - BraKe  <br> ->  brake the motors |  | 
+
