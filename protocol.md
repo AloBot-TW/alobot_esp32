@@ -1,1 +1,1 @@
-Bluetooth name starts with ALO-BOT
+Bluetooth name is ALO-BOT
