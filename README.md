@@ -2,7 +2,7 @@
 
 The source code is the firmware of AloBot.
 
-Note that the MCU of AloBot is ESP32 C3.
+Note that the MCU of AloBot is "ESP32 C3" and Arduino Version is "2.3.2"
 
 Refer to the following link for the build environment:
 
