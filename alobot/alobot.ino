@@ -11,7 +11,7 @@
 #include "ring.h"
 #include "usled.h"
 
-const String fw_version = "0.95";
+const String fw_version = "1.00";
 
 auto timer = timer_create_default();
 
